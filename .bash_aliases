@@ -176,6 +176,8 @@ alias wa="timew start"
 alias wz="timew stop"
 
 # trellowarrior
+alias tv="virtualenv -p python3 trw"
+alias ta=". trw/bin/activate"
 alias tres="trellowarrior sync"
 
 # taskopen
