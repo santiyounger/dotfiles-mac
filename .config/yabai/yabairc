@@ -71,7 +71,7 @@ yabai -m space 9 --label nine
 yabai -m rule --add app="^System Preferences$" sticky=on layer=above manage=off
 yabai -m rule --add app="^Karabiner-Elements$" sticky=on layer=above manage=off
 yabai -m rule --add app="^Karabiner-EventViewer$" sticky=on layer=above manage=off
-yabai -m rule --add app="^Finder$" sticky=on layer=above manage=off
+#yabai -m rule --add app="^Finder$" sticky=on layer=above manage=off
 yabai -m rule --add app="^Alfred Preferences$" sticky=on layer=above manage=off
 yabai -m rule --add app="^Disk Utility$" sticky=on layer=above manage=off
 yabai -m rule --add app="^System Information$" sticky=on layer=above manage=off
@@ -96,7 +96,7 @@ yabai -m rule --add app="^Private Internet Access$" manage=off
 #SY more gap for imac screen
 yabai -m config layout bsp
 #SY space for simple bar
-yabai -m config top_padding 35
+yabai -m config top_padding 30
 yabai -m config bottom_padding 10
 yabai -m config left_padding 10
 yabai -m config right_padding 10
