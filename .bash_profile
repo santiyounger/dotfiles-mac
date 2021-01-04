@@ -4,3 +4,4 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 if [ -s ~/.bashrc ]; then
     source ~/.bashrc;
 fi
+export PATH="/usr/local/opt/ruby/bin:$PATH"
