@@ -216,3 +216,6 @@ alias conau="con add -u"
 alias conc="con commit -m"
 alias concd="con commit -m 'Yet Another Commit'"
 alias conp="con push"
+
+# lupin
+alias lup="cd /Users/santi/Lupin && python3 main.py"
