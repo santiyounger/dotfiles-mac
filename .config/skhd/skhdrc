@@ -47,14 +47,14 @@ hyper - d : yabai -m window --toggle float;\
           yabai -m window --grid 4:4:1:1:2:2
 
 ## swap window
-shift + alt - h : yabai -m window --swap west
-# shift + cmd - h : yabai -m window --swap west
-shift + alt - j : yabai -m window --swap south
-# shift + cmd - j : yabai -m window --swap south
-shift + alt - k : yabai -m window --swap north
-# shift + cmd - k : yabai -m window --swap north
-shift + alt - l : yabai -m window --swap east
-# shift + cmd - l : yabai -m window --swap east
+# shift + alt - h : yabai -m window --swap west
+shift + cmd - h : yabai -m window --swap west
+# shift + alt - j : yabai -m window --swap south
+shift + cmd - j : yabai -m window --swap south
+# shift + alt - k : yabai -m window --swap north
+shift + cmd - k : yabai -m window --swap north
+# shift + alt - l : yabai -m window --swap east
+shift + cmd - l : yabai -m window --swap east
 
 # balance size of windows
 hyper + alt - 0 : yabai -m space --balance
